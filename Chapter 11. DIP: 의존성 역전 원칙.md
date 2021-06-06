@@ -44,6 +44,10 @@ DIP를 준수하려면 변동성이 큰 구체적인 객체는 주의해서 생�
 
 **Abstract Fatory**
 
+Application은 Service interface를 통해 ConcreteImpl 을 사용하지만, Application에서는 어떤식으로든 ConcreteImpl 인스턴스를 생성해야한다. 
+
+ConcreteImpl에 대해 소스 코드 의존성을 만들지 않으면서 이 목적을 이루기 위해 ServiceFactory#makeSvc 호출 
+
 ![image](https://user-images.githubusercontent.com/20153890/120923232-6c906400-c708-11eb-9132-c6452d92541f.png)
 
 왜 service..?
