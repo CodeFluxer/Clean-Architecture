@@ -74,5 +74,6 @@ DIP 위배를 모두 없앨 수 없음.
 <br>
 
 **의존성 역전**
+
 ![image](https://user-images.githubusercontent.com/20153890/120923951-4076e200-c70c-11eb-9d4e-7836fd1d905a.png)
 
